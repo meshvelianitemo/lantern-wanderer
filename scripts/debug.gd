@@ -14,10 +14,15 @@ extends Node
 ##   --key=NAME@N,...  press a real keyboard key on frame N (e.g. Q@50,Escape@80), for rebinding
 ##   --pad             show gamepad prompts      --window  apply the window settings (see Settings)
 ##   --sfxlog          print every sound effect, marking the ones played during dialogue
+##   --record=DIR      save frames from --from=N up to --frames into DIR (every --every=K-th), then quit.
+##                     Run Godot with --fixed-fps 60 so frames are evenly spaced; art_src/gifs.py makes GIFs.
 
 var skip_intro := false
 
 var _shot := ""
+var _record := ""
+var _from := 0
+var _every := 1
 var _frames := 90
 var _warp := Vector2i(-1, -1)
 var _hold := ""
@@ -43,6 +48,9 @@ func _ready() -> void:
 		var value := kv[1] if kv.size() > 1 else ""
 		match kv[0]:
 			"shot": _shot = value
+			"record": _record = value
+			"from": _from = int(value)
+			"every": _every = maxi(1, int(value))
 			"frames": _frames = int(value)
 			"warp":
 				var xy := value.split(",")
@@ -118,6 +126,11 @@ func _process(_delta: float) -> void:
 		var p: Player = Game.player
 		print("frame %d  pos %s  tile %s  floor %s  embers %d" % [_n, p.global_position.round(),
 			Vector2i(p.global_position / 16.0), p.is_on_floor(), Game.embers])
+	if _record != "":
+		if _n >= _from and (_n - _from) % _every == 0:
+			get_viewport().get_texture().get_image().save_png("%s/f%05d.png" % [_record, _n])
+		if _n >= _frames:
+			get_tree().quit()
 	if _shot != "" and _n == _frames:
 		var img := get_viewport().get_texture().get_image()
 		img.save_png(_shot)

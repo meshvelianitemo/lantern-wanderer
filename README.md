@@ -1,169 +1,144 @@
-# Lantern Wanderer (working title)
+<p align="center">
+  <img src="media/gifs/01_title.gif" width="100%" alt="Lantern Wanderer: the title screen over a night forest">
+</p>
 
-A small 2D pixel-art adventure. You are a hooded wanderer carrying the last
-ember. Take it down through the mountain and rekindle the dying Hearth.
-And decide what to do with the warmth you carry.
+<h1 align="center">Lantern Wanderer</h1>
 
-The design bible (story, lore, cast, systems, endings) is in [DESIGN.md](DESIGN.md).
+<p align="center"><i>A small light, a long way down.</i></p>
 
-## Play
+<p align="center">
+  <img src="https://img.shields.io/badge/Godot-4.7-478CBF?logo=godotengine&logoColor=white" alt="Godot 4.7">
+  <img src="https://img.shields.io/badge/GDScript-9.4k_lines-355570" alt="GDScript">
+  <img src="https://img.shields.io/badge/Python-asset_pipeline-3776AB?logo=python&logoColor=white" alt="Python asset pipeline">
+  <img src="https://img.shields.io/badge/platform-Windows-0078D6" alt="Windows">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-2EA043" alt="MIT license"></a>
+</p>
 
-- Double-click `play.bat` to play, or `edit.bat` to open the project in the Godot editor.
-- Godot 4.7.2 (portable) lives in `C:\Users\Administrator\Godot\`.
-- The game saves by itself (shrines, the Little Hearth, every area you enter).
-  "Continue" on the title screen picks up from there.
+A 2D pixel-art adventure about carrying a light. You are a hooded wanderer holding the last
+ember in the mountain. Take it down through crystal caves, drowned halls and the roots of the
+world to rekindle the dying Hearth, and decide, one person at a time, how much of your warmth
+to give away.
 
-## Playing on another PC
+## The game
 
-`play.bat` needs Godot at the path above, so copying this folder alone isn't enough.
-Instead, double-click `export.bat`. It builds `export/LanternWanderer.exe`, a single file
-with the whole game inside. Copy that one file to any 64-bit Windows PC and run it;
-nothing needs installing. Any graphics card with OpenGL 3.3 runs it.
+- **Light is the mechanic.** Your lantern makes glimmer solid, wakes the Keepers' eye-stones,
+  holds back the shades and casts the shadows you solve puzzles with.
+- **Sharing costs you.** Every ember you give away makes your light smaller, and changes who
+  stands beside you at the end. Four endings.
+- **Echoes.** Three playable memories of those who went down before you, each with one rule
+  that changes what light means.
+- **A home that fills up.** Everyone you warm moves to Old Hollow, where they eat supper
+  together and their stories keep moving.
 
-Saves live in `%APPDATA%\Godot\app_userdata\Lantern Wanderer\save.json`, outside this folder
-(options and key bindings sit next to it in `settings.cfg`).
-Copy that file to the same place on the other PC to keep your progress.
-The `.exe` and `play.bat` share the same save.
+<p align="center">
+  <img src="media/gifs/00_the_scarf.gif" width="480" alt="The wanderer running at night while their orange scarf burns shorter"><br>
+  <sub>The wanderer's scarf is their wick. It burns a little shorter every chapter.</sub>
+</p>
 
-The credits name is `MADE_BY` at the top of `scripts/credits.gd`; add playtesters and thanks
-in the lists below it. [PLAYTEST.md](PLAYTEST.md) has the playtest plan and the release checklist.
+## Gallery
 
-Rebuild the `.exe` after changing anything. New files that aren't Godot resources
-(like the `levels/*.txt` maps) must be listed in `include_filter` in `export_presets.cfg`,
-or the export leaves them out.
+<table>
+  <tr>
+    <td width="50%"><img src="media/gifs/small/02_mossgrave_woods.gif" width="100%" alt="Walking through Mossgrave Woods at night"><br>
+      <sub><b>Mossgrave Woods.</b> Where the walk down begins.</sub></td>
+    <td width="50%"><img src="media/gifs/small/03_the_first_ember.gif" width="100%" alt="Giving Nan Tallow an ember; the Little Hearth lights"><br>
+      <sub><b>Old Hollow.</b> Give an ember away, and the Little Hearth catches.</sub></td>
+  </tr>
+  <tr>
+    <td><img src="media/gifs/small/04_the_glimmerdeep.gif" width="100%" alt="A glimmer bridge lighting up in a crystal cave"><br>
+      <sub><b>The Glimmerdeep.</b> Glimmer turns solid in your light.</sub></td>
+    <td><img src="media/gifs/small/06_the_starwell.gif" width="100%" alt="The Great Orrery spinning under the stars"><br>
+      <sub><b>The Starwell.</b> A sunken observatory and its Great Orrery.</sub></td>
+  </tr>
+  <tr>
+    <td><img src="media/gifs/small/07_the_flare.gif" width="100%" alt="The Flare burning through thorn-roots"><br>
+      <sub><b>The Rootdark.</b> The Flare burns a way through the thorn-roots.</sub></td>
+    <td><img src="media/gifs/small/11_supper_in_old_hollow.gif" width="100%" alt="Everyone gathered round the fire for supper"><br>
+      <sub><b>Supper.</b> The people you warmed, round one fire.</sub></td>
+  </tr>
+  <tr>
+    <td><img src="media/gifs/small/12_echo_larks_song.gif" width="100%" alt="Lark warming a young Burrow in a grainy memory"><br>
+      <sub><b>Echo: Lark's Song.</b> Warm someone, and they light the way.</sub></td>
+    <td><img src="media/gifs/small/13_echo_the_last_winter.gif" width="100%" alt="Maud's bell sending a ring of light through a dark hall"><br>
+      <sub><b>Echo: The Last Winter.</b> No lantern, only a bell, and the water rising.</sub></td>
+  </tr>
+</table>
 
-| Action | Keyboard | Gamepad |
+<details>
+<summary><b>Spoilers: the bottom of the mountain</b></summary>
+<br>
+<table>
+  <tr>
+    <td width="50%"><img src="media/gifs/small/08_the_hollow_one.gif" width="100%" alt="Meeting the Hollow One"><br>
+      <sub><b>The Hollow One.</b> The first wick, who turned back.</sub></td>
+    <td width="50%"><img src="media/gifs/small/15_echo_vesper_turns_back.gif" width="100%" alt="Vesper at the Hearth, unable to step in"><br>
+      <sub><b>Echo: Vesper.</b> The step that wouldn't come.</sub></td>
+  </tr>
+  <tr>
+    <td><img src="media/gifs/small/09_many_hands.gif" width="100%" alt="Friends arriving at the Hearth one by one"><br>
+      <sub><b>Many Hands.</b> Everyone you warmed comes down to give your ember back.</sub></td>
+    <td><img src="media/gifs/small/10_the_first_page.gif" width="100%" alt="The Hollow One stepping into the Hearth and becoming Vesper"><br>
+      <sub><b>The First Page.</b> The hidden fourth ending.</sub></td>
+  </tr>
+</table>
+</details>
+
+## Tech stack
+
+| Layer | Built with |
+|---|---|
+| Engine | **Godot 4.7** and GDScript (58 scripts, ~9.4k lines), GL Compatibility renderer |
+| Rendering | 480×270 viewport with integer scaling; real-time 2D lights in the dark (`PointLight2D`, `CanvasModulate`); a screen-reading shader for the Echoes' memory filter and Vesper's fear |
+| Levels | Plain-text ASCII maps, parsed at load into tiles, props, lights and characters. Shadow-puzzle geometry is worked out in Python |
+| Story | Data-driven dialogue (~780 lines) with conditions, choices, story flags and cutscene events |
+| Art | **Python + Pillow**: every sprite, tile, backdrop, UI piece and the pixel font, drawn by code in one shared palette (~200 images) |
+| Audio | **NumPy + soundfile**: 18 music tracks, 9 ambiences, 45 effects and 20 character voices, all synthesized |
+| Tooling | A command-line test harness (warp, scripted input, screenshots, frame recording) for headless checks; the GIFs above were filmed with it. One-click Windows export |
+
+No asset packs: every image and sound in the game comes from the scripts in [`art_src/`](art_src).
+
+## Play it
+
+**From source** with [Godot 4.7](https://godotengine.org/download):
+
+```sh
+git clone https://github.com/meshvelianitemo/lantern-wanderer.git
+cd lantern-wanderer
+godot --headless --path . --import   # first time only: imports the assets
+godot --path .
+```
+
+**As a standalone Windows `.exe`:** run `export.bat` (set the Godot path at its top, and install
+the 4.7 export templates). It builds `export/LanternWanderer.exe`, one file that runs on any
+64-bit Windows PC with nothing to install.
+
+| | Keyboard | Gamepad |
 |---|---|---|
-| Move | A / D or arrow keys | Left stick / D-pad |
-| Jump | Space, W, Up, Z | A |
-| Drop through a platform | Down + Jump | Down + A |
-| Talk / interact / advance text | E, X, Enter | X / B |
-| Choose a dialogue option | Up / Down | D-pad |
-| Flare (once you have it) | F, C, L, Shift | Y / RB |
-| Journal (places, people, tablets, names) | Tab | Select |
-| Pause: journal, options, quit to title | Esc, P | Start |
-| Fullscreen | F11 | |
+| Move | A / D, arrows | Left stick, D-pad |
+| Jump | Space, W, Z | A |
+| Talk / interact | E, X, Enter | X / B |
+| Flare | F, Shift | Y / RB |
+| Journal | Tab | Select |
+| Pause | Esc | Start |
 
-Every key above can be changed in **Options > Controls** (from the title screen or the pause menu),
-up to four keys per action. Gamepad buttons are fixed. Options also has fullscreen, window size,
-music and sound volume, and text speed. Button prompts show whatever key is bound, or the
-gamepad button once you touch a pad.
-
-## The journey
-
-| Area | File | What's there |
-|---|---|---|
-| Mossgrave Woods (Ch I) | `levels/mossgrave.txt` | Mossback the totem; west to Old Hollow, east to the cave |
-| Old Hollow (hub) | `levels/old_hollow.txt` | Nan Tallow, Pell, the Little Hearth, three Wickways; everyone you help moves in |
-| The Glimmerdeep (Ch II) | `levels/glimmerdeep.txt` | Glimmer crystal, shades, Burrow, Wisp, Ash, Old Gudgeon |
-| The Drowned Halls (Ch III) | `levels/drowned.txt` | Bell, the Archivist and the Book of Wicks, the **Hook** gift, eye-gates |
-| The Starwell (side chapter, *Under the Lake*) | `levels/starwell.txt` | Warm Old Gudgeon and he dives you down to it. Orrin, shadow-play, orrery lifts, the Great Orrery |
-| The Rootdark (Ch IV) | `levels/rootdark.txt` | Sprig, the Root-Mother, the **Flare** gift, thorn-roots, the Hollow One |
-| The Hearth (Ch V) | `levels/hearth.txt` | The end of the road, and four endings |
-| Echo I: Lark's Song | `levels/echo_lark.txt` | Lay Lark's lantern (Glimmerdeep, above Ash) in the Little Hearth. Play as Lark: warm people and they light the way |
-| Echo II: The Last Winter | `levels/echo_maud.txt` | Maud's handbell (Drowned Halls, the sunk supper hall). Play as Maud: ring the bell, wake five Keepers, outrun the flood |
-| Echo III: Vesper | `levels/echo_vesper.txt` | The first page (the Root-Mother keeps it). Play as Vesper, the first wick: fear, the Hearth, the run back up |
-
-Old Hollow fills up as people move in: suppers at the Little Hearth once three people live
-there, new lines for everyone as the story moves, Glim (Wisp's mama, found in the old seam
-after Lark's Song), Orrin's telescope hints, and Gudgeon's ferry from the well. See DESIGN.md
-section 7 for the whole expansion, including the fourth ending, *The First Page*.
-
-The Echoes stay open after an ending: find a keepsake late and the Little Hearth still takes
-it. With all three seen, the Hollow One asks to walk down with you, and The First Page plays.
-A small speech bubble over someone means they have something new to tell you.
+Every key can be rebound in **Options > Controls**.
 
 ## Project layout
 
-| Path | What it is |
-|---|---|
-| `scenes/main.tscn` | Main scene: level, camera, HUD, title screen |
-| `scripts/level.gd` | Builds a level from an ASCII map; **legend and header format at the top** |
-| `levels/*.txt` | The maps. Edit them directly (or `art_src/make_maps.py`, then regenerate one) |
-| `scripts/story.gd` | The cast (`Story.NPCS`), Pell's remarks, helpers |
-| `scripts/story/*.gd` | All dialogue, one file per chapter |
-| `scripts/dialogue.gd` | Dialogue box + entry format (conditions, giving embers, events, cards) |
-| `scripts/game.gd` | Global state, flags, conditions, travel, saving, fades, default keys (autoload `Game`) |
-| `scripts/sound.gd` | Music, ambience, effects and character voices (autoload `Sound`) |
-| `scripts/settings.gd` | Volumes, window, text speed, key bindings, keyboard-or-pad (autoload `Settings`) |
-| `scripts/options.gd`, `credits.gd`, `key_prompt.gd` | Options & Controls screens, credits and licenses, button prompts |
-| `scripts/npc.gd`, `pell.gd`, `totem.gd` | Characters |
-| `scripts/shade.gd`, `glimmer.gd`, `hook.gd`, `gate.gd`, `eye.gd`, `thorn.gd`, `water.gd` | Light mechanics |
-| `scripts/caster.gd`, `starlamp.gd`, `orrery.gd`, `great_orrery.gd` | The Starwell: shadow-play plates, star-lamps, orrery suns, the sky |
-| `scripts/journal.gd`, `journal_data.gd`, `name_stone.gd` | The Journal and its content, Keeper name-stones |
-| `scripts/keepsake.gd`, `follower.gd`, `rising.gd`, `landing.gd`, `old_hearth.gd` | Echoes: keepsakes, Keepers/Edda walking behind you, the rising flood/dark, checkpoints, the old Hearth |
-| `scripts/story/echoes.gd`, `story/home.gd` | Echo dialogue; suppers, resident threads, the First Page ending |
-| `shaders/memory.gdshader` | The memory filter over Echoes (and Vesper's fear) |
-| `scripts/wickway.gd`, `hearth.gd`, `great_hearth.gd`, `door.gd` | Lifts, hearths, endings, doors & triggers |
-| `scenes/backdrops/*.tscn` | Parallax backdrop for each theme |
-| `art_src/` | Python scripts that generate every image **and sound** in `assets/` |
-
-## Adding content
-
-- **Area:** a new `levels/<id>.txt`, with `@name`, `@theme`, `@light`, `@music` and
-  `@char` lines on top. Link areas with `@char <c> door <id> <level> <door>` on both sides.
-- **Character:** an entry in `Story.NPCS` (sprite, animations, light, `talks`, `where`)
-  plus dialogue in `scripts/story/`. Place it with `@char <c> npc <id>`.
-- **Conditions** anywhere: `flag`, `!flag`, `embers>=N`, `given>=N`, `names>=N`, `new_names`, `in:<level>`, comma-separated (all must hold); `a|b` means either.
-- **Sharing an ember:** a dialogue choice with `"give": "<npc>"`.
-- **Naming a key in text:** write `{key:flare}` (any action) in dialogue or a title card. It shows
-  as `[F]`, or whatever the player bound, or `[Y]` on a gamepad. Never write a key name directly.
-- **Journal entries:** add to `scripts/journal_data.gd` (places, people, tablets, Keeper names).
-  Signs mark themselves read; a new Keeper name needs an entry in `NAMES` and a `@char <c> name <id>` in a map.
-- **Echoes:** a map with `@echo <id>` and `@hero <skin>` (sprites `hero_<anim>_<skin>.png`) is a
-  playable memory; `Game.start_echo(id)` / `end_echo()` keep the real journey safe meanwhile.
-  Flags inside one start with `<id>:` and are forgotten on replay. Map kinds for them: `keepsake`,
-  `landing`, `sleeper`, `follower`, `rising`, `headcount`, `old_hearth` (legend in `scripts/level.gd`).
-- **Suppers:** add `[id, condition]` to `StoryHome.SUPPERS` and a `supper_<id>` dialogue; give
-  each resident's line an `"if": "gave_<them>"` so it only plays when they live there.
-- **Shadow puzzles:** a still light at L throws a plate's shadow to `2C - L`, twice the plate's size.
-  Work the numbers out in `art_src/make_maps.py` (see `starwell()`), which prints where every shadow lands.
-
-## Art & audio pipeline
-
-Everything is drawn and synthesized by code in a shared palette (`art_src/pix.py`):
-
 ```
-cd art_src
-python tiles.py      # forest ground + wall tilesets
-python cave.py       # Glimmerdeep tiles, backdrop, crystals, glimmer, Wickway
-python drowned.py    # Drowned Halls: masonry, water, hooks, eye-gates
-python rootdark.py   # Rootdark: roots, fungus, thorn-roots
-python hearth_env.py # The Hearth chamber and the great Hearth
-python starwell.py   # the Starwell: tiles, backdrop, props, plates, lamps, orreries
-python npcs3.py      # Orrin, name-stones, stars, journal icon
-python hero.py       # the wanderer (npcs2.py makes the burnt-scarf stages)
-python npcs.py       # Tallow, Pell, Burrow, Wisp, Ash, shades, the Little Hearth
-python npcs2.py      # Archivist, Bell, Gudgeon, Root-Mother, Sprig, Hollow One
-python bg.py         # forest parallax
-python deco.py       # forest props, Mossback, shrine, embers, lights
-python keeper.py     # Keeper lore tablet
-python ui.py         # pixel font, UI frames, keycap and gamepad-button prompts
-python icon.py       # the game icon (icon.png, icon.ico in the project root)
-python audio.py      # music, ambience, sfx, voices (needs numpy + soundfile; ~3 min)
-python audio_starwell.py   # the Starwell's music, sfx and Orrin's voice (~1 min)
-python echoes.py     # Echoes & Home art: Lark/Maud/Vesper, Keepers, Glim, Edda, keepsakes, props
-python audio_echoes.py     # Echoes & Home music, ambience, sfx and voices
-python make_maps.py hearth   # regenerate one map (overwrites levels/hearth.txt!)
+scripts/         game code: player, level loader, dialogue, light mechanics, UI
+scripts/story/   all dialogue, one file per chapter
+levels/          the maps, as ASCII text
+shaders/         the memory filter
+art_src/         Python that generates every image and sound in assets/
+media/gifs/      the GIFs on this page
 ```
 
-Previews go to `art_src/_preview/`. After regenerating, run Godot once with
-`--import` (or open the editor) so new files are imported.
+More: [DESIGN.md](DESIGN.md) (the design bible; spoilers),
+[DEVELOPMENT.md](DEVELOPMENT.md) (debug flags, adding content, the asset pipeline),
+[PLAYTEST.md](PLAYTEST.md) (playtest and release checklist).
 
-## Debug flags
+## Credits
 
-Pass these after `--` to jump around and take automated screenshots
-(debug runs use a separate save file, so they never touch your real save):
-
-```
-Godot.exe --path . -- --skip-intro --level=glimmerdeep --door=1 --embers=3 --frames=60 --shot=C:/tmp/shot.png
-```
-
-`--level=ID`, `--door=ID`, `--warp=X,Y` (tile coordinates), `--embers=N`, `--given=N`,
-`--flags=a,b,c`, `--hold=move_right[@frame]`, `--press=interact@40,flare@90`,
-`--dialogue=ID`, `--shot=PATH` with `--frames=N`, `--skip-intro`, `--trace=N` (print the player's
-position every N frames), `--key=Q@50` (press a real key, for testing rebinding), `--pad` (show
-gamepad prompts), `--window` (apply the window settings, which debug runs otherwise skip),
-`--sfxlog` (print every sound effect, marking the ones played during dialogue).
-Debug runs also keep their own `debug_settings.cfg`. Frames are rendered frames, which can run
-slower than the 60 Hz physics, so use `--trace` to time presses instead of guessing.
+Made by **Temo Meshveliani**. Built with [Godot Engine](https://godotengine.org).
+Released under the [MIT License](LICENSE).
