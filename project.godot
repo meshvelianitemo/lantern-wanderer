@@ -1,0 +1,52 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Lantern Wanderer"
+config/description="A small 2D pixel adventure about carrying the last ember into the Deep."
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.png"
+config/windows_native_icon="res://icon.ico"
+
+[autoload]
+
+Game="*res://scripts/game.gd"
+Debug="*res://scripts/debug.gd"
+Dialogue="*res://scripts/dialogue.gd"
+Sound="*res://scripts/sound.gd"
+Settings="*res://scripts/settings.gd"
+
+[display]
+
+window/size/viewport_width=480
+window/size/viewport_height=270
+window/size/window_width_override=1440
+window/size/window_height_override=810
+window/stretch/mode="viewport"
+window/stretch/scale_mode="integer"
+
+[gui]
+
+theme/custom="res://assets/ui/theme.tres"
+
+[physics]
+
+common/physics_ticks_per_second=60
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+2d/snap/snap_2d_transforms_to_pixel=true
+2d/snap/snap_2d_vertices_to_pixel=true
+environment/defaults/default_clear_color=Color(0.063, 0.078, 0.165, 1)

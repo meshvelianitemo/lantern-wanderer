@@ -1,0 +1,51 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/parallax_layer.gd" id="3_parallax"]
+[ext_resource type="Texture2D" path="res://assets/bg/forest_sky.png" id="5_sky"]
+[ext_resource type="Texture2D" path="res://assets/bg/forest_clouds.png" id="6_clouds"]
+[ext_resource type="Texture2D" path="res://assets/bg/forest_mountains.png" id="7_mountains"]
+[ext_resource type="Texture2D" path="res://assets/bg/forest_mist.png" id="8_mist"]
+[ext_resource type="Texture2D" path="res://assets/bg/forest_pines_far.png" id="9_far"]
+[ext_resource type="Texture2D" path="res://assets/bg/forest_pines_mid.png" id="10_mid"]
+
+[node name="Backdrop" type="Node2D"]
+z_index = -100
+
+[node name="Sky" type="Sprite2D" parent="."]
+texture = ExtResource("5_sky")
+script = ExtResource("3_parallax")
+factor = Vector2(0, 0)
+
+[node name="Clouds" type="Sprite2D" parent="."]
+texture = ExtResource("6_clouds")
+script = ExtResource("3_parallax")
+factor = Vector2(0.04, 0.02)
+screen_y = 18.0
+autoscroll = 2.5
+
+[node name="Mountains" type="Sprite2D" parent="."]
+texture = ExtResource("7_mountains")
+script = ExtResource("3_parallax")
+factor = Vector2(0.08, 0.04)
+screen_y = -24.0
+
+[node name="Mist" type="Sprite2D" parent="."]
+texture = ExtResource("8_mist")
+script = ExtResource("3_parallax")
+factor = Vector2(0.14, 0.06)
+screen_y = -40.0
+autoscroll = 4.0
+
+[node name="PinesFar" type="Sprite2D" parent="."]
+texture = ExtResource("9_far")
+script = ExtResource("3_parallax")
+factor = Vector2(0.22, 0.09)
+screen_y = -50.0
+fill_below = Color(0.102, 0.153, 0.267, 1)
+
+[node name="PinesMid" type="Sprite2D" parent="."]
+texture = ExtResource("10_mid")
+script = ExtResource("3_parallax")
+factor = Vector2(0.4, 0.16)
+screen_y = -64.0
+fill_below = Color(0.051, 0.102, 0.122, 1)

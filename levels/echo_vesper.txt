@@ -1,0 +1,85 @@
+; Echo III - Vesper. The Rootway before the first cold, down to the Hearth and back. Played as Vesper.
+@name Vesper
+@subtitle An Echo
+@theme rootdark
+@echo vesper
+@hero vesper
+@embers 4
+@fear 12 50
+@light 1.0,0.84,0.66 0.74,0.54,0.46 10 50 y
+@music echo_vesper vesper:fear_off echo_vesper_dark
+@ambience rootway
+@seed 73
+@char E follower edda
+@char a npc v_hollis
+@char b npc v_tobin
+@char c npc v_wren
+@char d npc v_pim
+@char f npc v_maud
+@char g trigger vesper_gate !vesper:fear_off
+@char z trigger vesper_end vesper:fear_off
+@char h trigger vesper_hearth
+@char O old_hearth
+@char r rising dark 13
+@char L landing
+@char n prop banner -3 top
+@char o prop lamp_string -3 top
+@char k prop keeper_lamp -3
+######################################################################
+######################################################################
+######################################################################
+######################################################################
+#wwwwwwwnwwwwwwwwwwwnwwwowwwwwwwnwwwwwwww#############################
+#wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww#############################
+#wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww#############################
+#wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww#############################
+#wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww#############################
+#wLPwEwwwwkwwwwawwwwwwwwwwwwkwwwwwwwwwwww#############################
+####################################wwwwww############################
+####################################wwwwww############################
+####################################===www############################
+####################################wwwwww############################
+####################wwwwwwwwwwwwwwowwww===wwnwwwwwwwwwwwwwwwwww#######
+####################wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww#######
+####################wwwwwwwwwwwwwwww===wwwwwwwwwwwwwwwwwwwwwwww#######
+####################wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww#######
+####################wwwwwwwwwwwwwwwwwww===wwwwwwwwwwwwwwwwwwwww#######
+####################wwwwwwkwwwbwwwwwwwLwwwwwwwwcwwwwkwwwwwwwwww#######
+########################################################wwwwww########
+########################################################wwwwww########
+########################################################===www########
+########################################################wwwwww########
+######wwwwwwwwwwnwwwwwwwwwwwwwwwwwwwowwwwwwwwwwwwwwwwwwwwww===########
+######wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww########
+######wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww===www########
+######wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww########
+######wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww===########
+######wwwwwwwwgwwwzwwwkwwwwwwwfwwwwwwwwwdwwwwwwwkwwwwwwwwwLwww########
+######wwwwww##########################################################
+######wwwwww##########################################################
+######www===##########################################################
+######wwwwww##########################################################
+######===www##########################################################
+######wwwwww##########################################################
+######www===wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###################
+######wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###################
+######===wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###################
+######wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###################
+######www===wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###################
+######wwwwwwwwLwwwwwwwwwkwwwwwwwwwwwwwwwLwwwwwwwwww###################
+###########################################wwwwwww####################
+###########################################wwwwwww####################
+###########################################===wwww####################
+###########################################wwwwwww####################
+########################################wwwwwww===wwwwwwwwwwwwwwwwwww#
+########################################wwwwwwwwwwwwwwwwwwwwwwwwwwwww#
+########################################www===wwwwwwwwwwwwwwwwwwwwwww#
+########################################wwwwwwwwwwwwwwwwwwwwwwwwwwwww#
+########################################wwwwwww===wwwwwwwwwwwwwwwwwww#
+########################################wwwwwwwwwwwwwwwwwwwwwwwwwwwww#
+########################################www===wwwwwwwwwwwwwwwwwwwwwww#
+########################################wwwwwwLwwwwwwwwwhwwwwwwOwwwww#
+######################################################################
+######################################################################
+r#####################################################################
+######################################################################

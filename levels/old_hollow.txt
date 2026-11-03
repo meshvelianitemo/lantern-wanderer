@@ -1,0 +1,65 @@
+; Old Hollow - the hub village under the roots of a fallen giant tree.
+; NPCs you share an ember with move in here (see Story.NPCS "where").
+@name Old Hollow
+@subtitle The Last Warm Place
+@theme forest
+@light 0.78,0.78,0.94 0.42,0.38,0.58 66 56
+@warm 0.95,0.78,0.62
+@music hollow_cold gave_tallow hollow home>=6 hollow_full
+@ambience hollow
+@seed 21
+@char 1 door 1 mossgrave 1
+@char V wickway 2 glimmerdeep 2 glimmerdeep
+@char U wickway 3 drowned 3 drowned
+@char R wickway 4 rootdark 4 rootdark
+@char Q sign sign_wickway_hollow stone
+@char Z sign sign_hollow
+@char A npc tallow
+@char F hearth
+@char p npc pell
+@char W npc wisp
+@char Y npc ash
+@char D npc bell
+@char J npc sprig_tree
+@char G npc gudgeon
+@char O npc hollow_one
+@char E spot epilogue epilogue_wake ending_many
+@char L lamp
+@char h hut wisp
+@char j hut bell
+@char k hut ash
+@char K sign tablet_hollow_secret stone
+@char N name fitch
+@char I npc orrin
+@char H prop telescope -2
+@char C npc glim
+@char c hut glim
+@char M npc vesper
+@char r spot echo_return
+@char T propif home>=3 supper_table -3
+@char B propif echo_maud,gave_bell bell_post -3
+@char u propif home>=4 bunting -3 top
+###############################################################.................
+###############################################################.................
+###############################################################.................
+###############################################################.................
+###############################################################.................
+###ww#wwww#wwww#wwww##www#wwww#wwww#wwww###ww#wwww#wwww#www####.................
+###wwwwwwwvwwwwwwwwwwwwwwuwwwwwwwwwwvwwwwwwwwwuwwwwwwwvwwww####.................
+###wwwwwwwwwwwLwwwwwwwwwLwwwwwwwwwwwwwwwwwwwwwLwwwwwwwwwLwwwwww.................
+###wwwwwwwwwwwwwwwwLwwwwwwwwwLwwwwwwwwwwwwwwwwwwwwwLwwwwwwwwLww.................
+###wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww.................
+###wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww.................
+###wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww.................
+###wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww.................
+###wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwewwwwwwwwwwwwwwwwwwwwwwwwwwwww.................
+###wwwwwwwwwwwwwwwwwwwwwwwwwwww====wwwwwwwwwwwwwwwwwwwwwwwwwwww.................
+###wwVwwUwwRwQwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwewwwwwwwww....y.HI.n.......
+##############wwwwwwwwwww=====wwwwwwwwwwwwwwwwwwwww====wwwwwwww...########......
+##############wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww...#wwwwww#......
+################wwww====wwwwwwwwwwwwwwwwwwwwwww====wwwwwwwwwwww==.&wwwwww#==....
+################whwWwCcwJwwjwwDwBwAwrwEFwMpwYwTwwkwwwwwwwwwwwOwibf&wwKNew#nZt.y1
+######################################################wwGww#####################
+######################################################_____#####################
+################################################################################
+################################################################################

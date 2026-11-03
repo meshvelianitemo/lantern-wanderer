@@ -1,0 +1,48 @@
+; Echo I - Lark's Song. One age ago, in the Glimmerdeep. Played as Lark (see DESIGN.md 7b).
+@name Lark's Song
+@subtitle An Echo
+@theme cave
+@echo lark
+@hero lark
+@embers 6
+@light 0.52,0.56,0.74 0.15,0.15,0.27 60 96
+@music echo_lark
+@seed 71
+@char b npc lark_burrow
+@char G npc lark_gudgeon
+@char c npc lark_glim
+@char E npc lark_egg
+@char i eye lark
+@char Q gate lark
+@char h trigger lark_gate_hint
+@char s trigger lark_shades_hint
+@char d trigger lark_dim_hint
+@char L landing
+####################################################################################################
+####################################################################################################
+####################################################################################################
+####################################################################################################
+####################################################################################################
+###################www'wwwww'wwwww'ww###############################################################
+###################wwwwwwwwwwwwwwwwww###############################################################
+###################wwwwwwwwwwwwwwwwww###############################################################
+###################wwwwwwwwwwwwwwwwww###############################################################
+###################wiwwbwwkwwwwwwwwww####################################wwwwwwwwwwww###############
+############################wwwwwwwww####################################wwwwwwwwwwww###############
+wwwww^wwwww^wwww'ww#########wwwwwwwww####################################wwwwwwkwcwww###############
+wwwwwwwwwwwwwwwwwwwwwwwwwwwww===wwwww########wwwww'wwwwwwww^wwwwwwww'wwwwwwwww######w###############
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww########wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###############
+wwwwwwwwwwwwwwwwwwwwwwwwww===wwwwwwww########wwwwwwwwwXwwwwwwXwwwwwwwwwwwwww==wwwwwww###############
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwQwwwwwwwwwwwwwwwwwXwwwwwwxwwwwwwwwwwwwwwwwwwwww###############
+wwwwwwwwwwwwwwwwwwwwwwwwwwwww===wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww===wwwwwwwww###############
+wPwLwwwwwKwwwwkwwwwwwwwwwwwwwwwwwLwhwwwwwwwwwwLwswwawwwwwwwwwwwwwwuwwwwLwwwwwwwwwwwww###############
+########################################################wwGww############wwwwwwwwwwwwwwwwwwwwwwwwwww
+########################################################_____############wwwwwwwwwwwwwwwwwwwwwwwwwww
+#########################################################################w**wwwwwwwwwwwwwwwwxwwwwwww
+#########################################################################wwww**wwwwwwwwwwwwwwwwwwwww
+#########################################################################wwwwwww**wwwwwwwwwwwwwwwwww
+#########################################################################wwwwwwwwwwwwwLwdwwwwwjwwEwu
+#########################################################################wwwwwwwwww#################
+#########################################################################wwwwwwwwww#################
+#########################################################################~~~~~~~~~~~~###############
+#########################################################################~~~~~~~~~~~~###############

@@ -1,0 +1,36 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_player"]
+[ext_resource type="Texture2D" path="res://assets/fx/light_lantern.png" id="2_light"]
+[ext_resource type="Texture2D" path="res://assets/fx/light_small.png" id="3_small"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_body"]
+size = Vector2(8, 16)
+
+[node name="Player" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 5
+floor_snap_length = 4.0
+script = ExtResource("1_player")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, -8)
+shape = SubResource("RectangleShape2D_body")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+offset = Vector2(0, -16)
+
+[node name="Lantern" type="PointLight2D" parent="."]
+position = Vector2(9, -6)
+color = Color(1, 0.78, 0.5, 1)
+energy = 1.05
+range_item_cull_mask = 1
+texture = ExtResource("2_light")
+
+[node name="LanternGlow" type="PointLight2D" parent="."]
+position = Vector2(9, -6)
+color = Color(1, 0.62, 0.3, 1)
+energy = 0.9
+range_item_cull_mask = 1
+texture = ExtResource("3_small")
+texture_scale = 0.6

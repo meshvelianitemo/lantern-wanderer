@@ -1,0 +1,64 @@
+; The Drowned Halls - Chapter III. The flooded ruins of the Keepers.
+@name The Drowned Halls
+@subtitle Chapter III
+@theme drowned
+@light 0.46,0.56,0.6 0.3,0.38,0.42 20 120
+@seed 41
+@char 1 spot 1
+@char 4 spot 4
+@char 2 door 2 rootdark 1 rootdark_enter
+@char W wickway 3 old_hollow 3 drowned
+@char T trigger drowned_arrive
+@char A npc archivist
+@char B npc bell
+@char O npc gudgeon
+@char G sign tablet_drowned_1 stone
+@char H sign tablet_drowned_2 stone
+@char J sign tablet_drowned_3 stone
+@char L sign tablet_drowned_4 stone
+@char h hook
+@char i eye hall
+@char Q gate hall
+@char q gate deep
+@char K prop keeper_statue -4
+@char C prop broken_column -4
+@char U prop urn -2
+@char Y prop lily 6
+@char l prop drowned_lamp -3
+@char c prop chain_hang -3 top
+@char M name maud
+@char N name wren
+@char g gate supper
+@char y eye supper
+@char t prop supper_table -3
+@char z keepsake bell
+######################################################################################################################################################
+######################################################################################################################################################
+######################################################################################################################################################
+######################################################################################################################################################
+##################################################wwwwwcwwwwwwwwcwwwwwwwcwwwwwww#####################wwwwwcwwwwwwwwcwwwwwwcwww########################
+##################################################wwwwwwwwwwwwwwwwwwwwwwwwwwwwww#####################wwwwwwwwwwwwwwwwwwwwwwwww########################
+##################################################wwwwwwwwwwwwwwwwwwwwwwwwwwwwww#####################wwwwwwwwwwwwwwwwwwwwwwwww########################
+##################################################wwwwwwwwwwwwwwwwwwwwwwwwwwwwww#####################wwwwwwwwwwwwwwwwwwwwwwwww########################
+##################################################wwwwwwwwwwwwwwwwwwwwwwwwwwwwww#####################wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###########
+##################################################wwwwwwwwwwwwwwwwwwwwwwwwwwwwww#####################wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###########
+wwwwwwwwcwwwwwwcwwwwwwwwwwwwwwwcwwwwwwwwwwwwwcwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww############wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###########
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww############wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###########
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww############wwwwwwwwwwwwwwwwwwwwxwwwwwwwwwwwwwwwwwwww###########
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww############wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###########
+wwwwwwwwwwwwwwwwwwwwwwwwwlwwwwwwwwwwwwwlwwwwwwwxwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww############wwwwwwwwwwewwwwwwwwwwwwwwwwwwwwwwwwwwwwww###########
+wwwwlwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwewwwwwwwwwwwwwww############wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###########
+wwwwwwwwwwwwwwwwwwwwwwwwwwewwwwwwewwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww====wwwwwwwwwwwww############wwwwwwwww===wwwwwwwwwwwwwwwwwwwwwwwwwwwww###########
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwNwwwwiwwwwwwwwwwwwwQwwwwwwwwwwwwwwwwwwwww===wwwwwwwwwwwwwwwwwwwwwwqwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww===wwwwwwwwwwwwwwwwwwwwwwwwww===wwww==w4wwwwwww===wwwwwwwwwwwwwwwwwwwwwwwwww
+wwwww1wTwwKwwGwwSwwwwwYwwwwwwYwwwwMwYwwwBwwYwwwwwwwwCwUwHwwKwwCwwwAwwwUwwwwwwyhJwhwwwwwwwwUwwwwwwwwSwwwwwwwwwwwO===wwwwwwwwwwwwwwWwwwwLwwKwwwwwwwwww2w
+~~~~##################~~#####~~#####~~#####~~############ww#######################****################~~~~~~~~~~~~~~~~~~~~~~~#########################
+~~~~##################~~#####~~#####~~#####~~############ww#######################~~~~################~~~~~~~~~~~~~~~~~~~~~~~#########################
+~~~~##################~~#####~~#####~~#####~~############==###wwcwwwwwwwwwwwcww###~~~~################~~~~~~~~~~~~~~~~~~~~~~~#########################
+~~~~###################################################wwwwwwgwwwwwwwwwwwwwwwww###~~~~################~~~~~~~~~~~~~~~~~~~~~~~#########################
+~~~~###################################################wwwwwwwwwwwwwwwxwwwwwwww#######################~~~~~~~~~~~~~~~~~~~~~~~#########################
+~~~~###################################################wwwwwwwwwwwwwwwwwwwwwwww#######################~~~~~~~~~~~~~~~~~~~~~~~#########################
+~~~~##########################################################wwwtwwCwwtwwwzwww#######################~~~~~~~~~~~~~~~~~~~~~~~#########################
+~~~~##################################################################################################~~~~~~~~~~~~~~~~~~~~~~~#########################
+~~~~##################################################################################################~~~~~~~~~~~~~~~~~~~~~~~#########################
+~~~~##################################################################################################~~~~~~~~~~~~~~~~~~~~~~~#########################

@@ -1,0 +1,93 @@
+; Under the Lake: the Starwell - a sunken Keeper observatory (side chapter, after Ch III).
+; Reached by riding Old Gudgeon from the Drowned Halls' cistern. Shadow geometry is
+; computed in art_src/make_maps.py - regenerate rather than moving plates by hand.
+@name The Starwell
+@subtitle Under the Lake
+@theme starwell
+@light 0.5,0.56,0.7 0.2,0.22,0.36 44 18 y
+@glow 0.56,0.6,0.82 orrery_lit
+@music starwell orrery_lit stars
+@seed 71
+@char 1 spot 1
+@char 2 spot orrin
+@char T trigger starwell_arrive
+@char O npc gudgeon
+@char R npc orrin
+@char G sign tablet_starwell_1 stone
+@char J sign tablet_starwell_2 stone
+@char K sign tablet_starwell_3 stone
+@char H prop globe -2
+@char C prop star_chart -2
+@char Z prop telescope -2
+@char U prop orrery_ring -4
+@char o prop porthole -6
+@char k prop kelp -3 top
+@char v prop bubble_vent -2
+@char L starlamp
+@char h hook
+@char Y great_orrery
+@char N name agathe
+@char M name corran
+@char X name orrin
+@char a caster boat 4 7
+@char b caster boat 6 1
+@char r caster fish 4 2
+@char Q orrery 13 0 24
+@char d caster boat -6 -7
+@char f caster boat -6 -7
+@char i caster boat -6 -7
+@char V orrery 0 -11 22 2.6
+@char l caster boat 0 -6
+@char W orrery 0 -11 22 2.6
+@char n caster boat 0 -6
+#################################################################################################
+#################################################################################################
+######################################wwwwwwkwwwwwwwkwwwwwwwwww##################################
+######################################wwwwwwwwwwwwwwwwwwwwwwwww##################################
+######################################wwwwwwwwwwwwwwwwwwwwwwwww##################################
+######################################wwwwwwwwwwwwwwwwwwwwwwwww##################################
+######################################wwwwwwwwwwwwwwwwwwwwwwwww##################################
+######################################wwwwwwwwwwwwwwwwwwwwwwwww##################################
+######################################wwwwwwwwwwwwwwwwwwwwwwwww##################################
+######################################wwwwwwowwwwwwwwwwwwwwwwww#############wwkwwwwwkwwwwwkwww###
+######################################wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###
+######################################wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###
+######################################wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###
+######################################wwwwwwwwwwwwwwwwwwowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###
+######################################wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###
+######################################wwwwwwwwwwwwwwwwwwwwxwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###
+######################################wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###
+######################################wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwxwwwwwwwwwwwwwwwwwwwww###
+######################################wwZXwwwwwwYwwwwwwwKwwwwUwwwwLwwwewwwwwwwwwLwwwwwwwwwwwww###
+#####################################################################################wwwwwwwww###
+#####################################################################################wwwwwwwww###
+############################################################################wwwwwwwwwwwwwwwwww###
+############################################################################wwwwwwwwwwwwwwwwww###
+############################################################################wwwwwwwwwwwwwwwwww###
+############################################################################wwwwwwwwwwwwowwwww###
+############################################################################wwwwwwwwwwwwwnwwww###
+############################################################################wwwwwwwwwwwwwwwwww###
+############################################################################wwwwwwwwwwwwwwwwww###
+############################################################################wwwwwwwwwwwwwwwwww###
+############################################################################wwwwwwwwwwwwwwwwww###
+############################################################################MwwwwwwwwwwwwwWwww###
+##############################################################################wwwwwww############
+##############################################################################wwwwwww############
+#####################################################wwwwwwwkwwwwwkwwwwwwwwwwwwwwwwwwwwwwwwwww###
+#####################################################wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###
+###############################wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###
+###############################wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###
+###############################wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwowwwwwwwwwwwwwwwlwwwwwwwwwwwww###
+wkwwwwwkwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwowwwwwwwww###
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwewwwwwwwwwwwwwwwwwwwwwwwwww###
+wwwwwwwwwowwwwwwwwwwwwwwwwwowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww###
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwJwwhwbwwwwrwwLwwwwwSwUwwwwwwwwwwwwwwwwwwUwwwwwVwwwwwwwwewwwww###
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwww#######wwwwww############wwwwwwwwwwwwwww##########################
+wwwwwwwwwwwwwwwwwwwwwwwwwwwawww#######wwwwww############Qwwwwwwwdwwfwwi##########################
+wwOwww1wTvGwSwwNZwRww2CHwLwwwww#######wwwwww############wwwwwwwwwwwwwww##########################
+~~~~##################################wwwwww############wwwwwwwwwwwwwww##########################
+~~~~##################################~~~~~~############~~~~~~~~~~~~~~~##########################
+~~~~##################################~~~~~~############~~~~~~~~~~~~~~~##########################
+~~~~##################################~~~~~~############~~~~~~~~~~~~~~~##########################
+~~~~##################################~~~~~~############~~~~~~~~~~~~~~~##########################

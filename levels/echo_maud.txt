@@ -1,0 +1,98 @@
+; Echo II - The Last Winter. The Drowned Halls the night the water rose. Played as Maud.
+@name The Last Winter
+@subtitle An Echo
+@theme drowned
+@echo maud
+@hero maud
+@lantern 0.45
+@ability bell
+@light 0.26,0.27,0.36 0.15,0.15,0.23 64 8 y
+@music echo_maud
+@ambience flood
+@seed 72
+@char r rising water 7
+@char H sleeper hollis
+@char F sleeper fitch
+@char B sleeper tobin
+@char M sleeper pim
+@char W sleeper wren
+@char L landing
+@char D headcount 5 maud_door maud_not_yet
+@char h trigger maud_hollis_hint
+@char s trigger maud_stair
+@char t prop supper_table -2
+@char k prop keeper_lamp -3
+############################################
+############################################
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwkwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwLwwwwwDw####
+####wwwwwwwwwwwwwwwwwwwwwwwwwww#############
+####wwwwwwwwwwwwwwwwwwwwwwwwwww#############
+####wwwwwwwwwwwwwwwwwwwwww====wwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwww====wwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwww====wwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwkwwwwww====wwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwww====wwwwwwwwwwwwwwwwwwwwwwwwww####
+####wWwwLwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+##########wwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+##########wwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwww====wwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwww====wwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwww====wwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwww====wwwwwwwwkwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwww====wwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwLwwwwMww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwww#############
+####wwwwwwwwwwwwwwwwwwwwwwwwwww#############
+####wwwwwwwwwwwwwwwwwwwwww====wwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwww====wwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwww====wwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwkwwwwww====wwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwww====wwwwwwwwwwwwwwwwwwwwwwwwww####
+####wBwwLwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+##########wwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+##########wwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwww====wwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwww====wwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwww====wwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwww====wwwwwwwwkwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwww====wwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwLwwswwFww####
+####wwwwwwwwwwwwwwwwwwwwwwwwww##############
+####wwwwwwwwwwwwwwwwwwwwwwwwww##############
+####wwwwwwwwwwwwwwwwwwwww====wwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwww====wwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwww====wwwwwwwwwwwwwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwwwwkww====wwwwwwwwwwwwwwwkwwwwwww####
+####wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwwww====wwwwwwwwwwwwwwwwwwwwwwwwwww####
+####wwPwLwwwwtwwhwwwHwwwwwtwwwwwwwwwwwww####
+############################################
+############################################
+############################################
+r###########################################

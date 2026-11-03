@@ -1,0 +1,4 @@
+.godot/
+art_src/_preview/
+art_src/__pycache__/
+export/
